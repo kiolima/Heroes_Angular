@@ -10,15 +10,15 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes = [
       { id: 11, name: 'Jordana', universe: 'EY',power:'Princesa da Disney',second_power:'none' },
-      { id: 12, name: 'Mariana', universe: 'EY',power:'Ler Mente',second_power:'Voar'  },
+      { id: 12, name: 'Mariana', universe: 'Trainne Comics',power:'Ler Mente',second_power:'Voar'  },
       { id: 13, name: 'Victor', universe: 'EY',power:'Super Força',second_power:'none'  },
       { id: 14, name: 'Ana', universe: 'EY',power:'Teletransporte',second_power:'Voar'  },
-      { id: 15, name: 'Léo', universe: 'EY',power:'Teletransporte',second_power:'Voar'  },
+      { id: 15, name: 'Léo', universe: 'Trainee Comics',power:'Teletransporte',second_power:'Voar'  },
       { id: 16, name: 'Daniel', universe: 'EY',power:'Super Força',second_power:'none'  },
       { id: 17, name: 'Fernanda', universe: 'EY',power:'Princesa da Disney',second_power:'none'  },
-      { id: 18, name: 'Mirella', universe: 'EY',power:'Voar',second_power:'Teletransporte'  },
+      { id: 18, name: 'Mirella', universe: 'Trainee Comics',power:'Voar',second_power:'Teletransporte'  },
       { id: 19, name: 'Tabatha', universe: 'EY',power:'Princesa da Amazonas',second_power:'Crossfiteira'  },
-      { id: 20, name: 'Julio', universe: 'EY',power:'Imortal',second_power:'Vampiro'  }
+      { id: 20, name: 'Julio', universe: 'Outros',power:'Imortal',second_power:'Vampiro'  }
     ];
     return {heroes};
   }
